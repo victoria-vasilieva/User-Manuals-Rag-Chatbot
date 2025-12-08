@@ -1,0 +1,2 @@
+chunk_size,chunk_overlap,faithfulness,context_precision,context_recall
+1000,200,0.4,0.41398809522866964,0.75

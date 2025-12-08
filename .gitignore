@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+*.venv
+env/
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+local_storage/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# VSCode
+.vscode/
+
+# macOS
+.DS_Store
+
+# Streamlit cache
+.streamlit/
+
+# Embeddings 
+data/embeddings/*.pkl
+data/embeddings/*.json
+
+# Model files
+models/*.bin
+models/*.pt
+
+# Pytest cache
+.pytest_cache/
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+
+# Ignore evaluation outputs if generated
+evaluation/results/
+evaluation/temp/
