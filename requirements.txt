@@ -1,0 +1,10 @@
+streamlit
+numpy==1.26.4
+llama-index
+llama-index-core
+llama-index-embeddings-huggingface
+llama-index-llms-google-genai
+python-dotenv
+sentence-transformers
+ragas
+torch
