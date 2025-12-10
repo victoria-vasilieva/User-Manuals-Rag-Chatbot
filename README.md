@@ -7,7 +7,6 @@ text
   <!-- Core tech -->
   <img src="https://img.shields.io/badge/Python-3.12-blue?style=for-the-badge&logo=python" alt="Python">
   <img src="https://img.shields.io/badge/LLM-Llama_Index-00BFFF?style=for-the-badge" alt="LlamaIndex">
-  <img src="https://img.shields.io/badge/Embeddings-sentence--transformers-FFB000?style=for-the-badge" alt="sentence-transformers">
   <img src="https://img.shields.io/badge/Eval-ragas-7E57C2?style=for-the-badge" alt="ragas">
 </p>
 
