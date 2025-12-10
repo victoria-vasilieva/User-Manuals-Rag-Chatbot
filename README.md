@@ -1,4 +1,3 @@
-text
 <p align="left">
   <!-- App link -->
   <a href="https://victoria-vasilieva-user-manuals-rag-chatbot-app-qy7sxe.streamlit.app/">
@@ -41,7 +40,6 @@ This project goes beyond "it works" and focuses on **measuring**, **understandin
 
 <img width="777" height="218" alt="Bildschirmfoto 2025-12-08 um 11 48 44" src="https://github.com/user-attachments/assets/7243133a-4a68-4b7f-a212-e66dabf58302" />
 
-text
 
 ## Tech Skills Demonstrated
 
