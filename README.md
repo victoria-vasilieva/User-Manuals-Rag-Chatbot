@@ -1,16 +1,36 @@
 text
+<p align="left">
+  <!-- App link -->
+  <a href="https://victoria-vasilieva-user-manuals-rag-chatbot-app-qy7sxe.streamlit.app/">
+    <img src="https://img.shields.io/badge/Run_on-Streamlit-FF4B4B?logo=streamlit&style=for-the-badge" alt="Run on Streamlit">
+  </a>
+  <!-- Core tech -->
+  <img src="https://img.shields.io/badge/Python-3.12-blue?style=for-the-badge&logo=python" alt="Python">
+  <img src="https://img.shields.io/badge/LLM-Llama_Index-00BFFF?style=for-the-badge" alt="LlamaIndex">
+  <img src="https://img.shields.io/badge/Embeddings-sentence--transformers-FFB000?style=for-the-badge" alt="sentence-transformers">
+  <img src="https://img.shields.io/badge/Eval-ragas-7E57C2?style=for-the-badge" alt="ragas">
+</p>
+
+
 # User Manuals RAG Assistant
 
+<img width="400" height="450" alt="Bildschirmfoto 2025-12-10 um 12 54 06" src="https://github.com/user-attachments/assets/0dbf7f36-b49d-4099-acbe-0f684a2ea2d1" />
+
 A production-style **RAG-based chatbot** that answers questions from technical user manuals (PDFs), built as both an AI engineering system and an evaluation framework.  
+
 The system uses **Roborock robot vacuum manuals** as a realistic dataset to test how Retrieval-Augmented Generation performs on long, structured, technical documentation.  
+
 This project goes beyond "it works" and focuses on **measuring**, **understanding**, and **systematically improving** RAG systems.
 
 # Try Chatbot – Online Demo
 
-[![Run on Streamlit](http://static.streamlit.io/badges/streamlit-badge-primary.svg)](https://victoria-vasilieva-user-manuals-rag-chatbot-app-qy7sxe.streamlit.app/)
+<p align="left">
+  <a href="https://victoria-vasilieva-user-manuals-rag-chatbot-app-qy7sxe.streamlit.app/">
+    <img src="https://img.shields.io/badge/Run%20on-Streamlit-FF4B4B?logo=streamlit" alt="Run on Streamlit" width="220">
+  </a>
+</p>
 
-
-Click the badge to launch the chatbot in your browser without installing anything locally.
+<p><sub><em>Click the badge to launch the chatbot in your browser without installing anything locally.</em></sub></p>
 
 ## Features
 
@@ -20,19 +40,7 @@ Click the badge to launch the chatbot in your browser without installing anythin
 
 ## Architecture
 
-User Query → [HyDE] → Embedding Retriever → Reranker → LLM → Answer
-                               
-                               
-RAGAS Evaluation
-
-## Quick Start Locally
-
-_# Copy .env.example to .env and add your API key_
-pip install -r requirements.txt
-_# Add PDFs to data/manuals/_
-python ingest.py
-streamlit run app.py
-python evaluation/evaluation_engine.py
+<img width="777" height="218" alt="Bildschirmfoto 2025-12-08 um 11 48 44" src="https://github.com/user-attachments/assets/7243133a-4a68-4b7f-a212-e66dabf58302" />
 
 text
 
@@ -56,20 +64,17 @@ Answers key RAG engineering questions:
 
 ### Experiments Conducted
 
-| Experiment | Description |
-|------------|-------------|
-| Chunking | Multiple chunk sizes tested |
-| Retriever Depth | Varying top-k values |
-| Baseline | Dense retrieval without reranking or HyDE |
-| Reranking | Cross-encoder applied to improve passage ordering |
-| HyDE | Query replaced with synthetic document embedding |
+| Experiment | Description | Results |
+|------------|-------------|-------------|
+| Chunking | Multiple chunk sizes tested | strongly improved faithfulness |
+| Retriever Depth | Varying top-k values | strongly improved faithfulness |
+| Reranking | Cross-encoder applied to improve passage ordering | consistently improved faithfulness |
+| HyDE | Query replaced with synthetic document embedding | didn't impacted faithfulness |
 
 
 ### Key Findings
-- **Faithfulness** was the main focus—traditional metrics sometimes mislead
-- **Reranking** consistently improved faithfulness
-- **HyDE** didn't always boost faithfulness
-- **Chunk size/retriever depth** strongly impacted faithfulness
+- **Faithfulness** was the main focus — traditional metrics sometimes mislead
+
 
 ### Example Results
 
@@ -87,6 +92,21 @@ Answers key RAG engineering questions:
 - Error clustering and analysis
 - Regression testing for RAG pipelines
 - Context usage visualization
+
+
+## Quick Start Locally
+
+_# Copy .env.example to .env and add your API key_
+
+pip install -r requirements.txt
+
+_# Add PDFs to data/manuals/_
+
+python main.py
+
+streamlit run app.py
+
+python evaluation/evaluation_engine.py
 
 ## Disclaimer
 Educational/portfolio use only. Roborock manuals used for experimentation, not redistributed.
