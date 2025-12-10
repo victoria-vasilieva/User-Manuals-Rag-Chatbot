@@ -7,7 +7,8 @@ This project goes beyond "it works" and focuses on **measuring**, **understandin
 
 # Try Chatbot – Online Demo
 
-[![Run on Streamlit](https://static.streamlit.io/badges/streamlit-badge-primary.svg)](https://share.streamlit.io/yourusername/user-manuals-rag-chatbot/main/app.py)
+[![Run on Streamlit](http://static.streamlit.io/badges/streamlit-badge-primary.svg)](https://victoria-vasilieva-user-manuals-rag-chatbot-app-qy7sxe.streamlit.app/)
+
 
 Click the badge to launch the chatbot in your browser without installing anything locally.
 
