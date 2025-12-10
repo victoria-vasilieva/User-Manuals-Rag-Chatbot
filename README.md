@@ -106,7 +106,7 @@ python main.py
 
 streamlit run app.py
 
-python evaluation/evaluation_engine.py
+python evaluate.py
 
 ## Disclaimer
 Educational/portfolio use only. Roborock manuals used for experimentation, not redistributed.
