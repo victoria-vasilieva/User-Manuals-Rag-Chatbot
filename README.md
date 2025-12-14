@@ -12,7 +12,7 @@
 
 # User Manuals RAG Assistant
 
-<img width="400" height="450" alt="Bildschirmfoto 2025-12-10 um 12 54 06" src="https://github.com/user-attachments/assets/0dbf7f36-b49d-4099-acbe-0f684a2ea2d1" />
+https://github.com/user-attachments/assets/b147dd4c-a5ca-4d0b-b407-1ef7e089160d
 
 A production-style **RAG-based chatbot** that answers questions from technical user manuals (PDFs), built as both an AI engineering system and an evaluation framework.  
 
